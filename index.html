@@ -19,20 +19,6 @@
 
   <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
   <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
-
-  <style>
-    @media (max-width: 768px) {
-      [data-name="1-spaces"] .sd-imagepicker__item {
-        width: 60px !important;
-      }
-
-      [data-name="1-spaces"] .sd-imagepicker__image {
-        width: 60px !important;
-        max-width: 60px !important;
-        height: 60px !important;
-      }
-    }
-  </style>
   
 </head>
 
@@ -69,6 +55,18 @@
       const survey = new Survey.Model(surveyJson);
 
       survey.applyTheme(surveyTheme);
+
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        const imagePicker = survey.getQuestionByName("1-spaces");
+
+        if (imagePicker) {
+          imagePicker.imageWidth = "50px";
+          imagePicker.imageHeight = "50px";
+          imagePicker.maxImageWidth = "550px";
+          imagePicker.maxImageHeight = "50px";
+          imagePicker.imageFit = "cover";
+        }
+      }
 
       survey.onComplete.add(function(sender) {
         const completeResponse = {};
