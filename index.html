@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="https://unpkg.com/survey-core/defaultV2.min.css" rel="stylesheet">
+
+<script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+
+<script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="surveyContainer"></div>
+
+<script>
+
+const json = {
+
+title: "EJC Third Spaces",
+
+pages: [
+
+{
+
+elements: [
+
+{
+
+type: "text",
+
+name: "name",
+
+title: "What is your name?"
+
+},
+
+{
+
+type: "radiogroup",
+
+name: "year",
+
+title: "Year",
+
+choices: [
+
+"JC1",
+
+"JC2"
+
+]
+
+}
+
+]
+
+}
+
+]
+
+};
+
+const survey = new Survey.Model(json);
+
+survey.render(document.getElementById("surveyContainer"));
+
+</script>
+
+</body>
+
+</html>
