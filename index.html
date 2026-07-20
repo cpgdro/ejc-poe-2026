@@ -1,37 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
 
   <title>EJC Post Occupancy Evaluation Survey</title>
 
   <!-- SurveyJS -->
-  <link rel="stylesheet" href="https://unpkg.com/survey-core/survey-core.min.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/survey-core/survey-core.min.css"
+  >
+
   <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
   <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
 </head>
 
 <body>
 
-<div id="surveyContainer"></div>
+  <div id="surveyContainer"></div>
 
-<script>
+  <script>
+    /*
+      Replace the URL below with your own Apps Script
+      web app URL ending in /exec.
+    */
+    const GOOGLE_SCRIPT_URL =
+      "https://script.google.com/macros/s/AKfycbzy4HyXOg_UUhRMacoGs6t1jt_xDsUe3wo_ih_wn9s1NMpd_D3qPEa7OaXpPeA4M-55/exec";
 
-Promise.all([
-  fetch("survey.json").then(r => r.json()),
-  fetch("survey_theme.json").then(r => r.json())
-]).then(([surveyJson, surveyTheme]) => {
+    Promise.all([
+      fetch("survey.json").then(response => {
+        if (!response.ok) {
+          throw new Error("Unable to load survey.json");
+        }
 
-  const survey = new Survey.Model(surveyJson);
+        return response.json();
+      }),
 
-  survey.applyTheme(surveyTheme);
+      fetch("survey_theme.json").then(response => {
+        if (!response.ok) {
+          throw new Error("Unable to load survey_theme.json");
+        }
 
-  survey.render(document.getElementById("surveyContainer"));
+        return response.json();
+      })
+    ])
+    .then(([surveyJson, surveyTheme]) => {
+      const survey = new Survey.Model(surveyJson);
 
-});
+      survey.applyTheme(surveyTheme);
 
-</script>
+      survey.onComplete.add(function(sender) {
+        const payload = new URLSearchParams();
+
+        payload.append(
+          "payload",
+          JSON.stringify(sender.data)
+        );
+
+        fetch(GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          body: payload
+        })
+        .then(() => {
+          console.log("Survey response sent.");
+        })
+        .catch(error => {
+          console.error(
+            "Unable to send the survey response:",
+            error
+          );
+        });
+      });
+
+      survey.render(
+        document.getElementById("surveyContainer")
+      );
+    })
+    .catch(error => {
+      console.error(error);
+
+      document.getElementById("surveyContainer").innerHTML =
+        "<h2>Unable to load the survey.</h2>" +
+        "<p>Please refresh the page or contact the survey administrator.</p>";
+    });
+  </script>
 
 </body>
 </html>
