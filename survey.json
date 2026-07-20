@@ -80,7 +80,7 @@
               "type": "expression",
               "name": "question3",
               "title": "Third Spaces\n",
-              "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\n\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation, reflection, and spending time alone\n2. For peer interactions - spaces that support social interaction and strengthen friendships\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+              "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\n\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation, reflection, and spending time alone\n2. For peer interactions - spaces that support social interaction and strengthen friendships\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
             }
           ]
         },
@@ -96,7 +96,7 @@
                   "type": "imagepicker",
                   "name": "1-spaces",
                   "title": "1. Spaces for self ",
-                  "description": "Please select 1 - 3 third spaces that are important to you for personal alone time.",
+                  "description": "Please select up to 3 third spaces that are important to you for personal alone time.",
                   "isRequired": true,
                   "commentText": "Others (please specify):",
                   "choices": [
@@ -245,7 +245,7 @@
                   "type": "imagepicker",
                   "name": "2-spaces",
                   "title": "2. Spaces for peer interactions",
-                  "description": "Please select 1 - 3 third spaces that are important to you for peer interactions.",
+                  "description": "Please select up to 3 third spaces that are important to you for peer interactions.",
                   "isRequired": true,
                   "choices": [
                     {
@@ -392,7 +392,7 @@
                   "type": "imagepicker",
                   "name": "3-spaces",
                   "title": "3. Spaces for school community interactions and events ",
-                  "description": "Please select 1 - 3 third spaces that are important to you for school community interactions.",
+                  "description": "Please select up to 3 spaces that are important to you for school community interactions.",
                   "isRequired": true,
                   "choices": [
                     {
@@ -536,7 +536,7 @@
           "type": "expression",
           "name": "question27",
           "title": "Third Spaces\n",
-          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+          "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\r\n1. For self – spaces for self-regulation, reflection, and spending time alone\r\n2. For peer interactions - spaces that support social interaction and strengthen friendships\r\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\r\n\r\nThis section aims to identify the qualities students value in EJC's third spaces."
         },
         {
           "type": "panel",
@@ -889,7 +889,7 @@
           "type": "expression",
           "name": "question28",
           "title": "Third Spaces\n",
-          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+          "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\r\n1. For self – spaces for self-regulation, reflection, and spending time alone\r\n2. For peer interactions - spaces that support social interaction and strengthen friendships\r\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\r\n\r\nThis section aims to identify the qualities students value in EJC's third spaces."
         },
         {
           "type": "panel",
@@ -1246,7 +1246,7 @@
           "type": "expression",
           "name": "question61",
           "title": "Third Spaces\n",
-          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+          "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\r\n1. For self – spaces for self-regulation, reflection, and spending time alone\r\n2. For peer interactions - spaces that support social interaction and strengthen friendships\r\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\r\n\r\nThis section aims to identify the qualities students value in EJC's third spaces."
         },
         {
           "type": "panel",
@@ -1407,24 +1407,24 @@
           "type": "checkbox",
           "name": "question63",
           "visibleIf": "{3-top-space} notempty",
-          "title": "What purpose(s) do you typically use the {3-top-space} during community interactions?",
+          "title": "What purpose(s) do you typically use the {3-top-space} for during community interactions?",
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 2",
+              "value": "Item 3",
               "text": "Socialising and team bonding"
             },
             {
-              "value": "Item 3",
-              "text": "Relaxing and unwinding"
+              "value": "Item 7",
+              "text": "Participating in CCA activities"
             },
             {
               "value": "Item 4",
-              "text": "Participating in school events or activities"
+              "text": "Participating in school-wide events or programmes"
             },
             {
               "value": "Item 5",
-              "text": "Watching or supporting school activities"
+              "text": "Watching or supporting school events, performances or competitions"
             },
             {
               "value": "Item 6",
@@ -1708,7 +1708,7 @@
             {
               "type": "image",
               "name": "question5",
-              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=cddb4ebe-125b-4868-b374-38cb72a125c2",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f78f8ce8-25ac-4a00-8ea9-c0cf03fe0825",
               "imageFit": "cover",
               "imageHeight": "auto",
               "imageWidth": "100%"
@@ -1781,7 +1781,7 @@
         {
           "type": "image",
           "name": "question8",
-          "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6272eff9-e331-4bc2-afa7-2b29688404cc",
+          "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ce7c4981-54fc-4bd4-b40c-eb3cefb984b3",
           "imageFit": "cover",
           "imageHeight": "auto",
           "imageWidth": "100%"
@@ -1789,7 +1789,7 @@
         {
           "type": "matrix",
           "name": "question9",
-          "title": "Please rate the extent to which you agree with the following statements on the greenery within and surrounding EJC.\r\n",
+          "title": "Please rate the extent to which you agree with the following statements on the greenery in and around EJC.\r\n",
           "isRequired": true,
           "rowTitleWidth": "30%",
           "columns": [
@@ -1817,7 +1817,7 @@
           "rows": [
             {
               "value": "Row 1",
-              "text": "The greenery within and surrounding the school contributes positively to my school experience."
+              "text": "The greenery in and around the school contributes positively to my school experience."
             },
             {
               "value": "Row 3",
@@ -1861,11 +1861,11 @@
           "rows": [
             {
               "value": "Row 1",
-              "text": "I visit or pass through the Bishan-Ang Mo Kio park, for any purposes, as part of my school day."
+              "text": "I visit or pass through the Bishan-Ang Mo Kio Park, for any purposes, as part of my school day."
             },
             {
               "value": "Row 2",
-              "text": "Having easy access to the park is important to me."
+              "text": "The direct bridge connection between EJC and the park encourages me to visit the park."
             },
             {
               "value": "Row 3",
@@ -1892,7 +1892,7 @@
             {
               "type": "image",
               "name": "question12",
-              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=78e1ac91-9492-47b6-ae96-a1ae17397a64",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=0e403707-ee1d-4ebc-9fa8-5433cc43434d",
               "imageFit": "cover",
               "imageHeight": "auto",
               "imageWidth": "100%"
