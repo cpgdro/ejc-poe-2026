@@ -1,31 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>EJC Post Occupancy Evaluation Survey</title>
+  <title>EJC Post Occupancy Evaluation Survey</title>
 
-    <!-- SurveyJS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/survey-core/survey-core.min.css">
-
-    <!-- SurveyJS -->
-    <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
-    <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
-
-    <style>
-        body {
-            margin: 0;
-            padding: 30px;
-            background: #f5f5f5;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #surveyContainer {
-            max-width: 1200px;
-            margin: auto;
-        }
-    </style>
+  <!-- SurveyJS -->
+  <link rel="stylesheet" href="https://unpkg.com/survey-core/survey-core.min.css">
+  <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+  <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
 </head>
 
 <body>
@@ -35,34 +19,15 @@
 <script>
 
 Promise.all([
-    fetch("survey.json").then(r => r.json()),
-    fetch("survey_theme.json").then(r => r.json())
+  fetch("survey.json").then(r => r.json()),
+  fetch("survey_theme.json").then(r => r.json())
 ]).then(([surveyJson, surveyTheme]) => {
 
-    const survey = new Survey.Model(surveyJson);
+  const survey = new Survey.Model(surveyJson);
 
-    // Apply SurveyJS Creator theme
-    survey.applyTheme(surveyTheme);
+  survey.applyTheme(surveyTheme);
 
-    // Fires when the survey is completed
-    survey.onComplete.add(function(sender) {
-
-        console.log(sender.data);
-
-        alert("Thank you for completing the survey!");
-
-        // Google Sheets code will go here later.
-
-    });
-
-    survey.render(document.getElementById("surveyContainer"));
-
-}).catch(error => {
-
-    console.error(error);
-
-    document.body.innerHTML =
-        "<h2>Unable to load survey.</h2><p>Check that survey.json and survey_theme.json are in the same folder as index.html.</p>";
+  survey.render(document.getElementById("surveyContainer"));
 
 });
 
