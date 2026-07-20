@@ -10,7 +10,7 @@
           "elements": [
             {
               "type": "image",
-              "name": "question89",
+              "name": "first-page-image",
               "minWidth": "200px",
               "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=4eb86529-68a2-4226-88f1-dbdb590ab795",
               "imageFit": "cover",
@@ -19,7 +19,7 @@
             },
             {
               "type": "expression",
-              "name": "question90",
+              "name": "first-page-text",
               "startWithNewLine": false,
               "title": "This survey aims to gather feedback from the students and alumni on EJC's campus design and identify potential areas that may be considered for improvement.\n\nResponses will remain anonymous.\n",
               "description": "Contact: CPG Corporation Design and Research Office (DRO@cpgcorp.com.sg)"
@@ -33,38 +33,23 @@
       "elements": [
         {
           "type": "radiogroup",
-          "name": "question26",
+          "name": "user-group",
           "title": "Please indicate your user group.",
           "isRequired": true,
           "choices": [
-            {
-              "value": "Item 1",
-              "text": "Year 1 Student"
-            },
-            {
-              "value": "Item 2",
-              "text": "Year 2 Student"
-            },
-            {
-              "value": "Item 3",
-              "text": "Alumni"
-            }
+            "Year 1 Student",
+            "Year 2 Student",
+            "Alumni"
           ]
         },
         {
           "type": "radiogroup",
-          "name": "question25",
+          "name": "gender",
           "title": "Please indicate your gender.",
           "isRequired": true,
           "choices": [
-            {
-              "value": "Item 1",
-              "text": "Male"
-            },
-            {
-              "value": "Item 2",
-              "text": "Female"
-            }
+            "Male",
+            "Female"
           ]
         }
       ]
@@ -78,7 +63,7 @@
           "elements": [
             {
               "type": "expression",
-              "name": "question3",
+              "name": "page-3-text",
               "title": "Third Spaces\n",
               "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\n\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation, reflection, and spending time alone\n2. For peer interactions - spaces that support social interaction and strengthen friendships\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
             }
@@ -534,7 +519,7 @@
       "elements": [
         {
           "type": "expression",
-          "name": "question27",
+          "name": "page-4-text",
           "title": "Third Spaces\n",
           "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\r\n1. For self – spaces for self-regulation, reflection, and spending time alone\r\n2. For peer interactions - spaces that support social interaction and strengthen friendships\r\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\r\n\r\nThis section aims to identify the qualities students value in EJC's third spaces."
         },
@@ -544,7 +529,7 @@
           "elements": [
             {
               "type": "expression",
-              "name": "question80",
+              "name": "page-4-hidden",
               "title": "You have selected the {1-top-space} as your top space for personal alone time."
             },
             {
@@ -700,26 +685,11 @@
           "title": "What purpose(s) do you typically use the {1-top-space} for during your personal alone time?",
           "isRequired": true,
           "choices": [
-            {
-              "value": "Item 1",
-              "text": "Self-studying"
-            },
-            {
-              "value": "Item 2",
-              "text": "Waiting between lessons"
-            },
-            {
-              "value": "Item 3",
-              "text": "Relaxing and unwinding"
-            },
-            {
-              "value": "Item 4",
-              "text": "Practicing (for CCAs, hobbies, etc.)"
-            },
-            {
-              "value": "Item 5",
-              "text": "Playing sports"
-            }
+            "Self-studying",
+            "Waiting between lessons",
+            "Relaxing and unwinding",
+            "Practicing (for CCAs, hobbies, etc.)",
+            "Playing sports"
           ],
           "showOtherItem": true,
           "otherText": "Others (please specify)"
@@ -736,129 +706,69 @@
               "elements": [
                 {
                   "type": "expression",
-                  "name": "question14",
+                  "name": "page-4-quality-text",
                   "visibleIf": "{1-top-space} notempty",
                   "title": "Please select the qualities and features that you like about the {1-top-space} that support your personal alone time.",
                   "description": "You may elaborate on your answers in the text box provided."
                 },
                 {
                   "type": "checkbox",
-                  "name": "question15",
+                  "name": "1-quality-a",
                   "title": " ",
                   "description": "Environmental  Comfort",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable temperature"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Non-disruptive noise levels"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Well-ventilated"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Comfortable lighting conditions"
-                    }
+                    "Comfortable temperature",
+                    "Non-disruptive noise levels",
+                    "Well-ventilated",
+                    "Comfortable lighting conditions"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question16",
+                  "name": "1-quality-b",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Spatial Factors",
                   "choices": [
-                    {
-                      "value": "Item 2",
-                      "text": "Convenient location"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Comfortable size and scale of space"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Appropriate degree of enclosure/openness"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Good outdoor views"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Integration of greenery"
-                    },
-                    {
-                      "value": "Item 7",
-                      "text": "Appealing material choices"
-                    }
+                    "Convenient location",
+                    "Comfortable size and scale of space",
+                    "Appropriate degree of enclosure/openness",
+                    "Good outdoor views",
+                    "Integration of greenery",
+                    "Appealing material choices"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question17",
+                  "name": "1-quality-c",
                   "title": " ",
                   "description": "Accessories & Provisions",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable furniture"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Flexibility in programming"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Adequate power sockets"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Before/after school access"
-                    }
+                    "Comfortable furniture",
+                    "Flexibility in programming",
+                    "Adequate power sockets",
+                    "Before/after school access"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question18",
+                  "name": "1-quality-d",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Ambience",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Welcoming ambience"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Appropriate level of privacy"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Appropriate formal/casual setting"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Productive atmosphere"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Calming and restorative atmosphere"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Social environment"
-                    }
+                    "Welcoming ambience",
+                    "Appropriate level of privacy",
+                    "Appropriate formal/casual setting",
+                    "Productive atmosphere",
+                    "Calming and restorative atmosphere",
+                    "Social environment"
                   ],
                   "otherText": "Others (please specify):"
                 },
                 {
                   "type": "checkbox",
-                  "name": "question19",
+                  "name": "1-quality-e",
                   "maxWidth": "50%",
                   "title": " ",
                   "showOtherItem": true,
@@ -868,14 +778,14 @@
             },
             {
               "type": "comment",
-              "name": "question20",
+              "name": "1-quality-elaborate",
               "title": "Please elaborate:"
             }
           ]
         },
         {
           "type": "comment",
-          "name": "question21",
+          "name": "1-improve",
           "visibleIf": "{1-top-space} notempty",
           "title": "How could the {1-top-space} be improved to better support your personal alone time?\r\n",
           "isRequired": true
@@ -887,7 +797,7 @@
       "elements": [
         {
           "type": "expression",
-          "name": "question28",
+          "name": "page-5-text",
           "title": "Third Spaces\n",
           "description": "The concept of \"third places\" was coined by sociologist Ray Oldenburg in 1989 to describe informal places beyond the first place (home) and second place (work), where people voluntarily gather and build community. In academic institutions, third spaces refer to informal environments beyond classrooms, comprising non-classroom spaces and circulation spaces, where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\r\n1. For self – spaces for self-regulation, reflection, and spending time alone\r\n2. For peer interactions - spaces that support social interaction and strengthen friendships\r\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\r\n\r\nThis section aims to identify the qualities students value in EJC's third spaces."
         },
@@ -1048,7 +958,7 @@
         },
         {
           "type": "checkbox",
-          "name": "question62",
+          "name": "2-purpose",
           "visibleIf": "{2-top-space} notempty",
           "title": "What purpose(s) do you typically use the {2-top-space} for when spending time with peers?",
           "isRequired": true,
@@ -1100,122 +1010,62 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question65",
+                  "name": "2-quality-a",
                   "title": " ",
                   "description": "Environmental  Comfort",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable temperature"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Non-disruptive noise levels"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Well-ventilated"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Comfortable lighting conditions"
-                    }
+                    "Comfortable temperature",
+                    "Non-disruptive noise levels",
+                    "Well-ventilated",
+                    "Comfortable lighting conditions"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question66",
+                  "name": "2-quality-b",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Spatial Factors",
                   "choices": [
-                    {
-                      "value": "Item 2",
-                      "text": "Convenient location"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Comfortable size and scale of space"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Appropriate degree of enclosure/openness"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Good outdoor views"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Integration of greenery"
-                    },
-                    {
-                      "value": "Item 7",
-                      "text": "Appealing material choices"
-                    }
+                    "Convenient location",
+                    "Comfortable size and scale of space",
+                    "Appropriate degree of enclosure/openness",
+                    "Good outdoor views",
+                    "Integration of greenery",
+                    "Appealing material choices"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question67",
+                  "name": "2-quality-c",
                   "title": " ",
                   "description": "Accessories & Provisions",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable furniture"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Flexibility in programming"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Adequate power sockets"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Before/after school access"
-                    }
+                    "Comfortable furniture",
+                    "Flexibility in programming",
+                    "Adequate power sockets",
+                    "Before/after school access"
                   ]
                 },
                 {
                   "type": "checkbox",
-                  "name": "question68",
+                  "name": "2-quality-d",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Ambience",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Welcoming ambience"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Appropriate level of privacy"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Appropriate formal/casual setting"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Productive atmosphere"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Calming and restorative atmosphere"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Social environment"
-                    }
+                    "Welcoming ambience",
+                    "Appropriate level of privacy",
+                    "Appropriate formal/casual setting",
+                    "Productive atmosphere",
+                    "Calming and restorative atmosphere",
+                    "Social environment"
                   ],
                   "otherText": "Others (please specify):"
                 },
                 {
                   "type": "checkbox",
-                  "name": "question69",
+                  "name": "2-quality-e",
                   "maxWidth": "50%",
                   "title": " ",
                   "showOtherItem": true,
@@ -1225,14 +1075,14 @@
             },
             {
               "type": "comment",
-              "name": "question70",
+              "name": "2-quality-elaborate",
               "title": "Please elaborate:"
             }
           ]
         },
         {
           "type": "comment",
-          "name": "question78",
+          "name": "2-improve",
           "visibleIf": "{2-top-space} notempty",
           "title": "How could the {2-top-space} be improved to better support time with your peers?\n",
           "isRequired": true
@@ -1405,7 +1255,7 @@
         },
         {
           "type": "checkbox",
-          "name": "question63",
+          "name": "3-purpose",
           "visibleIf": "{3-top-space} notempty",
           "title": "What purpose(s) do you typically use the {3-top-space} for during community interactions?",
           "isRequired": true,
@@ -1453,7 +1303,7 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question72",
+                  "name": "3-quality-a",
                   "title": " ",
                   "description": "Environmental  Comfort",
                   "choices": [
@@ -1477,7 +1327,7 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question73",
+                  "name": "3-quality-b",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Spatial Factors",
@@ -1510,7 +1360,7 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question74",
+                  "name": "3-quality-c",
                   "title": " ",
                   "description": "Accessories & Provisions",
                   "choices": [
@@ -1534,7 +1384,7 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question75",
+                  "name": "3-quality-d",
                   "startWithNewLine": false,
                   "title": " ",
                   "description": "Ambience",
@@ -1568,7 +1418,7 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "question76",
+                  "name": "3-quality-e",
                   "maxWidth": "50%",
                   "title": " ",
                   "showOtherItem": true,
@@ -1578,14 +1428,14 @@
             },
             {
               "type": "comment",
-              "name": "question77",
+              "name": "3-quality-elaborate",
               "title": "Please elaborate:"
             }
           ]
         },
         {
           "type": "comment",
-          "name": "question79",
+          "name": "3-improve",
           "visibleIf": "{1-top-space} notempty",
           "title": "How could the {3-top-space} be improved to better support time with the school community?\n",
           "isRequired": true
@@ -1609,32 +1459,17 @@
         },
         {
           "type": "matrix",
-          "name": "question2",
+          "name": "circulation-1",
           "title": "Please rate the extent to which you agree with the following statements.\r\n",
           "isRequired": true,
           "alternateRows": true,
           "rowTitleWidth": "30%",
           "columns": [
-            {
-              "value": "Column 1",
-              "text": "Strongly Disagree"
-            },
-            {
-              "value": "Column 2",
-              "text": "Disagree"
-            },
-            {
-              "value": "Column 3",
-              "text": "Neutral"
-            },
-            {
-              "value": "Column 4",
-              "text": "Agree"
-            },
-            {
-              "value": "Column 5",
-              "text": "Strongly Agree"
-            }
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
           ],
           "rows": [
             {
@@ -1658,43 +1493,19 @@
         },
         {
           "type": "checkbox",
-          "name": "question1",
+          "name": "circulation-2",
           "title": "What factors may influence your decision to take the stairs rather than the lift?\n",
           "description": "Tick all that apply.\n",
           "isRequired": true,
           "choices": [
-            {
-              "value": "Item 2",
-              "text": "Lifts do not serve the floors that I am going to"
-            },
-            {
-              "value": "Item 3",
-              "text": "Long lift waiting times"
-            },
-            {
-              "value": "Item 4",
-              "text": "Congested lifts and corridors"
-            },
-            {
-              "value": "Item 5",
-              "text": "More direct way to my destination"
-            },
-            {
-              "value": "Item 6",
-              "text": "Walking together with peers"
-            },
-            {
-              "value": "Item 7",
-              "text": "For active movement/exercise"
-            },
-            {
-              "value": "Item 8",
-              "text": "To decompress and recharge"
-            },
-            {
-              "value": "Item 9",
-              "text": "To enjoy views"
-            }
+            "Lifts do not serve the floors that I am going to",
+            "Long lift waiting times",
+            "Congested lifts and corridors",
+            "More direct way to my destination",
+            "Walking together with peers",
+            "For active movement/exercise",
+            "To decompress and recharge",
+            "To enjoy views"
           ],
           "showOtherItem": true,
           "showNoneItem": true,
@@ -1715,31 +1526,16 @@
             },
             {
               "type": "matrix",
-              "name": "question6",
+              "name": "circulation-3",
               "title": "Please rate the extent to which you agree with the following statements on the courtyard.\r\n",
               "isRequired": true,
               "rowTitleWidth": "30%",
               "columns": [
-                {
-                  "value": "Column 1",
-                  "text": "Strongly Disagree"
-                },
-                {
-                  "value": "Column 2",
-                  "text": "Disagree"
-                },
-                {
-                  "value": "Column 3",
-                  "text": "Neutral"
-                },
-                {
-                  "value": "Column 4",
-                  "text": "Agree"
-                },
-                {
-                  "value": "Column 5",
-                  "text": "Strongly Agree"
-                }
+                "Strongly Disagree",
+                "Disagree",
+                "Neutral",
+                "Agree",
+                "Strongly Agree"
               ],
               "rows": [
                 {
@@ -1788,31 +1584,16 @@
         },
         {
           "type": "matrix",
-          "name": "question9",
+          "name": "green-1",
           "title": "Please rate the extent to which you agree with the following statements on the greenery in and around EJC.\r\n",
           "isRequired": true,
           "rowTitleWidth": "30%",
           "columns": [
-            {
-              "value": "Column 1",
-              "text": "Strongly Disagree"
-            },
-            {
-              "value": "Column 2",
-              "text": "Disagree"
-            },
-            {
-              "value": "Column 3",
-              "text": "Neutral"
-            },
-            {
-              "value": "Column 4",
-              "text": "Agree"
-            },
-            {
-              "value": "Column 5",
-              "text": "Strongly Agree"
-            }
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
           ],
           "rows": [
             {
@@ -1832,31 +1613,16 @@
         },
         {
           "type": "matrix",
-          "name": "question10",
+          "name": "green-2",
           "title": "Please rate the extent to which you agree with the following statements on the adjacency to Bishan-Ang Mo Kio Park.\n",
           "isRequired": true,
           "rowTitleWidth": "30%",
           "columns": [
-            {
-              "value": "Column 1",
-              "text": "Strongly Disagree"
-            },
-            {
-              "value": "Column 2",
-              "text": "Disagree"
-            },
-            {
-              "value": "Column 3",
-              "text": "Neutral"
-            },
-            {
-              "value": "Column 4",
-              "text": "Agree"
-            },
-            {
-              "value": "Column 5",
-              "text": "Strongly Agree"
-            }
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
           ],
           "rows": [
             {
@@ -1899,31 +1665,16 @@
             },
             {
               "type": "matrix",
-              "name": "question13",
+              "name": "cc-1",
               "titleLocation": "hidden",
               "isRequired": true,
               "rowTitleWidth": "30%",
               "columns": [
-                {
-                  "value": "Column 1",
-                  "text": "Never"
-                },
-                {
-                  "value": "Column 2",
-                  "text": "Rarely"
-                },
-                {
-                  "value": "Column 3",
-                  "text": "Sometimes"
-                },
-                {
-                  "value": "Column 4",
-                  "text": "Often"
-                },
-                {
-                  "value": "Column 5",
-                  "text": "Always"
-                }
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
               ],
               "rows": [
                 {
@@ -1936,7 +1687,7 @@
             },
             {
               "type": "comment",
-              "name": "question22",
+              "name": "cc-2",
               "title": "Please describe your experiences with Marymount Community Club. If you never or rarely visit, please explain why.",
               "isRequired": true
             }
@@ -1956,7 +1707,7 @@
             },
             {
               "type": "comment",
-              "name": "question24",
+              "name": "cc-3",
               "title": "Does the fact that the track and field is elevated make a difference to the way you use or perceive the facility?",
               "description": "(You may consider the views, your comfort level, sense of safety...)",
               "isRequired": true
