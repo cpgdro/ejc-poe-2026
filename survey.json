@@ -1,0 +1,1978 @@
+{
+  "title": "EJC Post Occupancy Evaluation Survey 2026",
+  "pages": [
+    {
+      "name": "page10",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel22",
+          "elements": [
+            {
+              "type": "image",
+              "name": "question89",
+              "minWidth": "200px",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=4eb86529-68a2-4226-88f1-dbdb590ab795",
+              "imageFit": "cover",
+              "imageHeight": "auto",
+              "imageWidth": "100%"
+            },
+            {
+              "type": "expression",
+              "name": "question90",
+              "startWithNewLine": false,
+              "title": "This survey aims to gather feedback from the students and alumni on EJC's campus design and identify potential areas that may be considered for improvement.\n\nResponses will remain anonymous.\n",
+              "description": "Contact: CPG Corporation Design and Research Office (DRO@cpgcorp.com.sg)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page6",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question26",
+          "title": "Please indicate your user group.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Year 1 Student"
+            },
+            {
+              "value": "Item 2",
+              "text": "Year 2 Student"
+            },
+            {
+              "value": "Item 3",
+              "text": "Alumni"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question25",
+          "title": "Please indicate your gender.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Male"
+            },
+            {
+              "value": "Item 2",
+              "text": "Female"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel5",
+          "elements": [
+            {
+              "type": "expression",
+              "name": "question3",
+              "title": "Third Spaces\n",
+              "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\n\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation, reflection, and spending time alone\n2. For peer interactions - spaces that support social interaction and strengthen friendships\n3. For school community interactions and events – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel11",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel3",
+              "elements": [
+                {
+                  "type": "imagepicker",
+                  "name": "1-spaces",
+                  "title": "1. Spaces for self ",
+                  "description": "Please select 1 - 3 third spaces that are important to you for personal alone time.",
+                  "isRequired": true,
+                  "commentText": "Others (please specify):",
+                  "choices": [
+                    {
+                      "value": "Bishan-Ang Mo Kio Park",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653"
+                    },
+                    {
+                      "value": "Canteen",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335"
+                    },
+                    {
+                      "value": "Consultation Areas",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0"
+                    },
+                    {
+                      "value": "Indoor Sports Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170"
+                    },
+                    {
+                      "value": "L6 Elevated Garden",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18"
+                    },
+                    {
+                      "value": "Learning Studios",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100"
+                    },
+                    {
+                      "value": "Library",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5"
+                    },
+                    {
+                      "value": "Marymount Community Club",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3"
+                    },
+                    {
+                      "value": "Multi-purpose Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca"
+                    },
+                    {
+                      "value": "Parade Square",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb"
+                    },
+                    {
+                      "value": "Sports Courts",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87"
+                    },
+                    {
+                      "value": "Staircases",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166"
+                    },
+                    {
+                      "value": "Study Decks",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02"
+                    },
+                    {
+                      "value": "Symposia",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b"
+                    },
+                    {
+                      "value": "Track and Field",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076"
+                    },
+                    {
+                      "value": "Tutorial Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317"
+                    },
+                    {
+                      "value": "CCA Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=13db2820-84ce-499e-80e5-5aeb5031ad7c"
+                    },
+                    {
+                      "value": "Special Rooms (BSP, HSP, etc.)",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7af9af39-cd43-47ae-ba81-47d02c4bdee6"
+                    }
+                  ],
+                  "choicesVisibleIf": "{1-spaces.length} < 4",
+                  "otherText": "Others (please specify):",
+                  "imageFit": "fill",
+                  "minImageWidth": 120,
+                  "minImageHeight": 120,
+                  "maxImageWidth": 200,
+                  "maxImageHeight": 200,
+                  "showLabel": true,
+                  "multiSelect": true
+                },
+                {
+                  "type": "checkbox",
+                  "name": "1-others",
+                  "titleLocation": "hidden",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify):"
+                }
+              ]
+            },
+            {
+              "type": "ranking",
+              "name": "1-space",
+              "visibleIf": "{1-spaces} notempty",
+              "title": "Please rank these spaces according to how important they are for your personal alone time.",
+              "isRequired": true,
+              "choicesFromQuestion": "1-spaces",
+              "choices": [
+                "Item 1",
+                "Item 2",
+                "Item 3"
+              ],
+              "choicesFromQuestionMode": "selected"
+            },
+            {
+              "type": "expression",
+              "name": "1-top-space",
+              "visibleIf": "false",
+              "title": "Your top choice is {1-space[0]}",
+              "expression": "{1-space[0]}"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel12",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel13",
+              "elements": [
+                {
+                  "type": "imagepicker",
+                  "name": "2-spaces",
+                  "title": "2. Spaces for peer interactions",
+                  "description": "Please select 1 - 3 third spaces that are important to you for peer interactions.",
+                  "isRequired": true,
+                  "choices": [
+                    {
+                      "value": "Bishan-Ang Mo Kio Park",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653"
+                    },
+                    {
+                      "value": "Canteen",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335"
+                    },
+                    {
+                      "value": "Consultation Areas",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0"
+                    },
+                    {
+                      "value": "Indoor Sports Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170"
+                    },
+                    {
+                      "value": "L6 Elevated Garden",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18"
+                    },
+                    {
+                      "value": "Learning Studios",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100"
+                    },
+                    {
+                      "value": "Library",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5"
+                    },
+                    {
+                      "value": "Marymount Community Club",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3"
+                    },
+                    {
+                      "value": "Multi-purpose Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca"
+                    },
+                    {
+                      "value": "Parade Square",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb"
+                    },
+                    {
+                      "value": "Sports Courts",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87"
+                    },
+                    {
+                      "value": "Staircases",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166"
+                    },
+                    {
+                      "value": "Study Decks",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02"
+                    },
+                    {
+                      "value": "Symposia",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b"
+                    },
+                    {
+                      "value": "Track and Field",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076"
+                    },
+                    {
+                      "value": "Tutorial Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317"
+                    },
+                    {
+                      "value": "CCA Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=13db2820-84ce-499e-80e5-5aeb5031ad7c"
+                    },
+                    {
+                      "value": "Special Rooms (BSP, HSP, etc.)",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7af9af39-cd43-47ae-ba81-47d02c4bdee6"
+                    }
+                  ],
+                  "choicesVisibleIf": "{2-spaces.length} < 4",
+                  "imageFit": "fill",
+                  "minImageWidth": 120,
+                  "minImageHeight": 120,
+                  "maxImageWidth": 200,
+                  "maxImageHeight": 200,
+                  "showLabel": true,
+                  "multiSelect": true
+                },
+                {
+                  "type": "checkbox",
+                  "name": "2-spaces-others",
+                  "title": " ",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify):"
+                }
+              ]
+            },
+            {
+              "type": "ranking",
+              "name": "2-space",
+              "visibleIf": "{2-spaces} notempty",
+              "title": "Please rank these third spaces according to how important they are for spending time with peers.",
+              "isRequired": true,
+              "choicesFromQuestion": "2-spaces",
+              "choices": [
+                "Item 1",
+                "Item 2",
+                "Item 3"
+              ],
+              "choicesFromQuestionMode": "selected"
+            },
+            {
+              "type": "expression",
+              "name": "2-top-space",
+              "visibleIf": "false",
+              "title": "Your top choice is {2-space[0]}",
+              "expression": "{2-space[0]}"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel16",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel17",
+              "elements": [
+                {
+                  "type": "imagepicker",
+                  "name": "3-spaces",
+                  "title": "3. Spaces for school community interactions and events ",
+                  "description": "Please select 1 - 3 third spaces that are important to you for school community interactions.",
+                  "isRequired": true,
+                  "choices": [
+                    {
+                      "value": "Bishan-Ang Mo Kio Park",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653"
+                    },
+                    {
+                      "value": "Canteen",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335"
+                    },
+                    {
+                      "value": "Consultation Areas",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0"
+                    },
+                    {
+                      "value": "Indoor Sports Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170"
+                    },
+                    {
+                      "value": "L6 Elevated Garden",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18"
+                    },
+                    {
+                      "value": "Learning Studios",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100"
+                    },
+                    {
+                      "value": "Library",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5"
+                    },
+                    {
+                      "value": "Marymount Community Club",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3"
+                    },
+                    {
+                      "value": "Multi-purpose Hall",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca"
+                    },
+                    {
+                      "value": "Parade Square",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb"
+                    },
+                    {
+                      "value": "Sports Courts",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87"
+                    },
+                    {
+                      "value": "Staircases",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166"
+                    },
+                    {
+                      "value": "Study Decks",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02"
+                    },
+                    {
+                      "value": "Symposia",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b"
+                    },
+                    {
+                      "value": "Track and Field",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076"
+                    },
+                    {
+                      "value": "Tutorial Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317"
+                    },
+                    {
+                      "value": "CCA Rooms",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=13db2820-84ce-499e-80e5-5aeb5031ad7c"
+                    },
+                    {
+                      "value": "Special Rooms (BSP, HSP, etc.)",
+                      "text": "",
+                      "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7af9af39-cd43-47ae-ba81-47d02c4bdee6"
+                    }
+                  ],
+                  "choicesVisibleIf": "{3-spaces.length} < 4",
+                  "imageFit": "fill",
+                  "minImageWidth": 120,
+                  "minImageHeight": 120,
+                  "maxImageWidth": 200,
+                  "maxImageHeight": 200,
+                  "showLabel": true,
+                  "multiSelect": true
+                },
+                {
+                  "type": "checkbox",
+                  "name": "3-space-others",
+                  "title": " ",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify):"
+                }
+              ]
+            },
+            {
+              "type": "ranking",
+              "name": "3-space",
+              "visibleIf": "{3-spaces} notempty",
+              "title": "Please rank these spaces according to how important they are for spending time with the school community.",
+              "isRequired": true,
+              "choicesFromQuestion": "3-spaces",
+              "choices": [
+                "Item 1",
+                "Item 2",
+                "Item 3"
+              ],
+              "choicesFromQuestionMode": "selected"
+            },
+            {
+              "type": "expression",
+              "name": "3-top-space",
+              "visibleIf": "false",
+              "title": "Your top choice is {3-space[0]}",
+              "expression": "{3-space[0]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page7",
+      "elements": [
+        {
+          "type": "expression",
+          "name": "question27",
+          "title": "Third Spaces\n",
+          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+        },
+        {
+          "type": "panel",
+          "name": "panel4",
+          "elements": [
+            {
+              "type": "expression",
+              "name": "question80",
+              "title": "You have selected the {1-top-space} as your top space for personal alone time."
+            },
+            {
+              "type": "image",
+              "name": "question28_bishan",
+              "visibleIf": "{1-top-space} = 'Bishan-Ang Mo Kio Park'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_canteen",
+              "visibleIf": "{1-top-space} = 'Canteen'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_consultation",
+              "visibleIf": "{1-top-space} = 'Consultation Areas'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_sportshall",
+              "visibleIf": "{1-top-space} = 'Indoor Sports Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_l6garden",
+              "visibleIf": "{1-top-space} = 'L6 Elevated Garden'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_learningstudios",
+              "visibleIf": "{1-top-space} = 'Learning Studios'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_library",
+              "visibleIf": "{1-top-space} = 'Library'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_cc",
+              "visibleIf": "{1-top-space} = 'Marymount Community Club'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_mph",
+              "visibleIf": "{1-top-space} = 'Multi-purpose Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_paradesquare",
+              "visibleIf": "{1-top-space} = 'Parade Square'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_sportscourts",
+              "visibleIf": "{1-top-space} = 'Sports Courts'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_staircases",
+              "visibleIf": "{1-top-space} = 'Staircases'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_studydecks",
+              "visibleIf": "{1-top-space} = 'Study Decks'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_symposia",
+              "visibleIf": "{1-top-space} = 'Symposia'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_track",
+              "visibleIf": "{1-top-space} = 'Track and Field'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question28_tutorialrooms",
+              "visibleIf": "{1-top-space} = 'Tutorial Rooms'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "1-purpose",
+          "visibleIf": "{1-top-space} notempty",
+          "title": "What purpose(s) do you typically use the {1-top-space} for during your personal alone time?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Self-studying"
+            },
+            {
+              "value": "Item 2",
+              "text": "Waiting between lessons"
+            },
+            {
+              "value": "Item 3",
+              "text": "Relaxing and unwinding"
+            },
+            {
+              "value": "Item 4",
+              "text": "Practicing (for CCAs, hobbies, etc.)"
+            },
+            {
+              "value": "Item 5",
+              "text": "Playing sports"
+            }
+          ],
+          "showOtherItem": true,
+          "otherText": "Others (please specify)"
+        },
+        {
+          "type": "panel",
+          "name": "panel10",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel2",
+              "visibleIf": "{1-top-space} notempty",
+              "isRequired": true,
+              "elements": [
+                {
+                  "type": "expression",
+                  "name": "question14",
+                  "visibleIf": "{1-top-space} notempty",
+                  "title": "Please select the qualities and features that you like about the {1-top-space} that support your personal alone time.",
+                  "description": "You may elaborate on your answers in the text box provided."
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question15",
+                  "title": " ",
+                  "description": "Environmental  Comfort",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable temperature"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Non-disruptive noise levels"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Well-ventilated"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Comfortable lighting conditions"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question16",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Spatial Factors",
+                  "choices": [
+                    {
+                      "value": "Item 2",
+                      "text": "Convenient location"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Comfortable size and scale of space"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Appropriate degree of enclosure/openness"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Good outdoor views"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Integration of greenery"
+                    },
+                    {
+                      "value": "Item 7",
+                      "text": "Appealing material choices"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question17",
+                  "title": " ",
+                  "description": "Accessories & Provisions",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable furniture"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Flexibility in programming"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Adequate power sockets"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Before/after school access"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question18",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Ambience",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Welcoming ambience"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Appropriate level of privacy"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Appropriate formal/casual setting"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Productive atmosphere"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Calming and restorative atmosphere"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Social environment"
+                    }
+                  ],
+                  "otherText": "Others (please specify):"
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question19",
+                  "maxWidth": "50%",
+                  "title": " ",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify)"
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "question20",
+              "title": "Please elaborate:"
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "question21",
+          "visibleIf": "{1-top-space} notempty",
+          "title": "How could the {1-top-space} be improved to better support your personal alone time?\r\n",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page8",
+      "elements": [
+        {
+          "type": "expression",
+          "name": "question28",
+          "title": "Third Spaces\n",
+          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+        },
+        {
+          "type": "panel",
+          "name": "panel14",
+          "elements": [
+            {
+              "type": "expression",
+              "name": "question81",
+              "title": "You have selected the {2-top-space} as your top space for peer interactions."
+            },
+            {
+              "type": "image",
+              "name": "question29",
+              "visibleIf": "{2-top-space} = 'Bishan-Ang Mo Kio Park'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question30",
+              "visibleIf": "{2-top-space} = 'Canteen'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question31",
+              "visibleIf": "{2-top-space} = 'Consultation Areas'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question32",
+              "visibleIf": "{2-top-space} = 'Indoor Sports Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question33",
+              "visibleIf": "{2-top-space} = 'L6 Elevated Garden'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question34",
+              "visibleIf": "{2-top-space} = 'Learning Studios'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question35",
+              "visibleIf": "{2-top-space} = 'Library'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question36",
+              "visibleIf": "{2-top-space} = 'Marymount Community Club'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question37",
+              "visibleIf": "{2-top-space} = 'Multi-purpose Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question38",
+              "visibleIf": "{2-top-space} = 'Parade Square'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question39",
+              "visibleIf": "{2-top-space} = 'Sports Courts'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question40",
+              "visibleIf": "{2-top-space} = 'Staircases'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question41",
+              "visibleIf": "{2-top-space} = 'Study Decks'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question42",
+              "visibleIf": "{2-top-space} = 'Symposia'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question43",
+              "visibleIf": "{2-top-space} = 'Track and Field'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question44",
+              "visibleIf": "{2-top-space} = 'Tutorial Rooms'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "question62",
+          "visibleIf": "{2-top-space} notempty",
+          "title": "What purpose(s) do you typically use the {2-top-space} for when spending time with peers?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Studying together"
+            },
+            {
+              "value": "Item 2",
+              "text": "Waiting between lessons"
+            },
+            {
+              "value": "Item 6",
+              "text": "Socialising"
+            },
+            {
+              "value": "Item 3",
+              "text": "Relaxing and unwinding"
+            },
+            {
+              "value": "Item 4",
+              "text": "Practicing (for CCAs, hobbies, etc.)"
+            },
+            {
+              "value": "Item 5",
+              "text": "Playing sports"
+            }
+          ],
+          "showOtherItem": true,
+          "otherText": "Others (please specify)"
+        },
+        {
+          "type": "panel",
+          "name": "panel18",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel19",
+              "visibleIf": "{2-top-space} notempty",
+              "isRequired": true,
+              "elements": [
+                {
+                  "type": "expression",
+                  "name": "question64",
+                  "visibleIf": "{2-top-space} notempty",
+                  "title": "Please select the qualities and features that you like about the {2-top-space} that support time with your peers.",
+                  "description": "You may elaborate on your answers in the text box provided."
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question65",
+                  "title": " ",
+                  "description": "Environmental  Comfort",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable temperature"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Non-disruptive noise levels"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Well-ventilated"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Comfortable lighting conditions"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question66",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Spatial Factors",
+                  "choices": [
+                    {
+                      "value": "Item 2",
+                      "text": "Convenient location"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Comfortable size and scale of space"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Appropriate degree of enclosure/openness"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Good outdoor views"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Integration of greenery"
+                    },
+                    {
+                      "value": "Item 7",
+                      "text": "Appealing material choices"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question67",
+                  "title": " ",
+                  "description": "Accessories & Provisions",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable furniture"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Flexibility in programming"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Adequate power sockets"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Before/after school access"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question68",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Ambience",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Welcoming ambience"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Appropriate level of privacy"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Appropriate formal/casual setting"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Productive atmosphere"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Calming and restorative atmosphere"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Social environment"
+                    }
+                  ],
+                  "otherText": "Others (please specify):"
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question69",
+                  "maxWidth": "50%",
+                  "title": " ",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify)"
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "question70",
+              "title": "Please elaborate:"
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "question78",
+          "visibleIf": "{2-top-space} notempty",
+          "title": "How could the {2-top-space} be improved to better support time with your peers?\n",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page9",
+      "elements": [
+        {
+          "type": "expression",
+          "name": "question61",
+          "title": "Third Spaces\n",
+          "description": "Third spaces in schools are informal environments beyond classrooms that support student development, comprising non-classroom spaces and circulation spaces. These are spaces where students choose to spend time without a formal agenda.\r\n\r\nWhile students have differing preferences, they can benefit from these three types of third spaces:\n1. For self – spaces for self-regulation and alone time\n2. For peer interactions – spaces to strengthen social bonding\n3. For school community interactions – spaces that create a strong sense of school community and belonging\n\nThis section aims to identify the qualities students value in EJC's third spaces."
+        },
+        {
+          "type": "panel",
+          "name": "panel15",
+          "elements": [
+            {
+              "type": "expression",
+              "name": "question82",
+              "title": "You have selected the {3-top-space} as your top space for school community interactions."
+            },
+            {
+              "type": "image",
+              "name": "question45",
+              "visibleIf": "{3-top-space} = 'Bishan-Ang Mo Kio Park'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=d3f84a0b-261e-4564-9b3c-40dcdfc3b653",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question46",
+              "visibleIf": "{3-top-space} = 'Canteen'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=314ac083-0947-43a5-aef8-bbf2afe17335",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question47",
+              "visibleIf": "{3-top-space} = 'Consultation Areas'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6fabd4df-cb00-4865-b258-3d1d042a77c0",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question48",
+              "visibleIf": "{3-top-space} = 'Indoor Sports Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=3cedb6e7-0a2c-4ccd-8796-6aa176f1c170",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question49",
+              "visibleIf": "{3-top-space} = 'L6 Elevated Garden'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=ac7cb017-8cd6-47fe-90f7-f54a5e9c8a18",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question50",
+              "visibleIf": "{3-top-space} = 'Learning Studios'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=bd257e06-4a03-46e4-8a96-2a931c0d0100",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question51",
+              "visibleIf": "{3-top-space} = 'Library'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=66feb2bb-46ba-4ce5-8ff7-152e506f51c5",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question52",
+              "visibleIf": "{3-top-space} = 'Marymount Community Club'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=a1f35b39-f7da-483d-ac87-93003c455ac3",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question53",
+              "visibleIf": "{3-top-space} = 'Multi-purpose Hall'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=f838d6af-eac5-4db7-afab-8d26fd7b17ca",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question54",
+              "visibleIf": "{3-top-space} = 'Parade Square'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=be4e4812-e28d-42bd-a7cc-7c60048e1abb",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question55",
+              "visibleIf": "{3-top-space} = 'Sports Courts'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=b2a0bf7a-ebf5-4131-8b74-68046cc1fe87",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question56",
+              "visibleIf": "{3-top-space} = 'Staircases'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=aa41bb88-e8f8-4668-ac1f-25cbb032c166",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question57",
+              "visibleIf": "{3-top-space} = 'Study Decks'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=e588a456-195e-4756-b747-88e582ff8f02",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question58",
+              "visibleIf": "{3-top-space} = 'Symposia'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7f9ba4e3-737a-4c91-a6f4-d5e0410de62b",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question59",
+              "visibleIf": "{3-top-space} = 'Track and Field'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=5287236e-b480-4f48-8fa6-f2571df34076",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            },
+            {
+              "type": "image",
+              "name": "question60",
+              "visibleIf": "{3-top-space} = 'Tutorial Rooms'",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=23b8bc3f-44f4-4f57-95f0-3b57ae4e5317",
+              "imageFit": "cover",
+              "imageHeight": "400",
+              "imageWidth": "400"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "question63",
+          "visibleIf": "{3-top-space} notempty",
+          "title": "What purpose(s) do you typically use the {3-top-space} during community interactions?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 2",
+              "text": "Socialising and team bonding"
+            },
+            {
+              "value": "Item 3",
+              "text": "Relaxing and unwinding"
+            },
+            {
+              "value": "Item 4",
+              "text": "Participating in school events or activities"
+            },
+            {
+              "value": "Item 5",
+              "text": "Watching or supporting school activities"
+            },
+            {
+              "value": "Item 6",
+              "text": "Playing sports"
+            }
+          ],
+          "showOtherItem": true,
+          "otherText": "Others (please specify)"
+        },
+        {
+          "type": "panel",
+          "name": "panel20",
+          "elements": [
+            {
+              "type": "panel",
+              "name": "panel21",
+              "visibleIf": "{3-top-space} notempty",
+              "isRequired": true,
+              "elements": [
+                {
+                  "type": "expression",
+                  "name": "question71",
+                  "visibleIf": "{3-top-space} notempty",
+                  "title": "Please select the qualities and features that you like about the {3-top-space} that support time with the school community.",
+                  "description": "You may elaborate on your answers in the text box provided."
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question72",
+                  "title": " ",
+                  "description": "Environmental  Comfort",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable temperature"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Non-disruptive noise levels"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Well-ventilated"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Comfortable lighting conditions"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question73",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Spatial Factors",
+                  "choices": [
+                    {
+                      "value": "Item 2",
+                      "text": "Convenient location"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Comfortable size and scale of space"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Appropriate degree of enclosure/openness"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Good outdoor views"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Integration of greenery"
+                    },
+                    {
+                      "value": "Item 7",
+                      "text": "Appealing material choices"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question74",
+                  "title": " ",
+                  "description": "Accessories & Provisions",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Comfortable furniture"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Flexibility in programming"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Adequate power sockets"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Before/after school access"
+                    }
+                  ]
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question75",
+                  "startWithNewLine": false,
+                  "title": " ",
+                  "description": "Ambience",
+                  "choices": [
+                    {
+                      "value": "Item 1",
+                      "text": "Welcoming ambience"
+                    },
+                    {
+                      "value": "Item 2",
+                      "text": "Appropriate level of privacy"
+                    },
+                    {
+                      "value": "Item 6",
+                      "text": "Appropriate formal/casual setting"
+                    },
+                    {
+                      "value": "Item 3",
+                      "text": "Productive atmosphere"
+                    },
+                    {
+                      "value": "Item 4",
+                      "text": "Calming and restorative atmosphere"
+                    },
+                    {
+                      "value": "Item 5",
+                      "text": "Social environment"
+                    }
+                  ],
+                  "otherText": "Others (please specify):"
+                },
+                {
+                  "type": "checkbox",
+                  "name": "question76",
+                  "maxWidth": "50%",
+                  "title": " ",
+                  "showOtherItem": true,
+                  "otherText": "Others (please specify)"
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "question77",
+              "title": "Please elaborate:"
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "question79",
+          "visibleIf": "{1-top-space} notempty",
+          "title": "How could the {3-top-space} be improved to better support time with the school community?\n",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel6",
+          "elements": [
+            {
+              "type": "expression",
+              "name": "question4",
+              "title": "Pedestrian Circulation",
+              "description": "In schools, where large groups of students frequently transition between different areas, it is important to consider the quality of circulation spaces and how they affect the ease and comfort of movement.\n\nThis section assesses the quality of circulation design in EJC."
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "question2",
+          "title": "Please rate the extent to which you agree with the following statements.\r\n",
+          "isRequired": true,
+          "alternateRows": true,
+          "rowTitleWidth": "30%",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Strongly Disagree"
+            },
+            {
+              "value": "Column 2",
+              "text": "Disagree"
+            },
+            {
+              "value": "Column 3",
+              "text": "Neutral"
+            },
+            {
+              "value": "Column 4",
+              "text": "Agree"
+            },
+            {
+              "value": "Column 5",
+              "text": "Strongly Agree"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Travelling between spaces within the school feels smooth and efficient."
+            },
+            {
+              "value": "Row 2",
+              "text": "Besides travelling between spaces, I often use the corridors for informal social interactions, discussions, and/or other student activities."
+            },
+            {
+              "value": "Row 3",
+              "text": "It is acceptable for me that lifts only stop at selected floors to improve efficiency, even if it means taking the stairs afterwards."
+            },
+            {
+              "value": "Row 4",
+              "text": "Lifts and stairs are conveniently located."
+            }
+          ],
+          "eachRowRequired": true
+        },
+        {
+          "type": "checkbox",
+          "name": "question1",
+          "title": "What factors may influence your decision to take the stairs rather than the lift?\n",
+          "description": "Tick all that apply.\n",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 2",
+              "text": "Lifts do not serve the floors that I am going to"
+            },
+            {
+              "value": "Item 3",
+              "text": "Long lift waiting times"
+            },
+            {
+              "value": "Item 4",
+              "text": "Congested lifts and corridors"
+            },
+            {
+              "value": "Item 5",
+              "text": "More direct way to my destination"
+            },
+            {
+              "value": "Item 6",
+              "text": "Walking together with peers"
+            },
+            {
+              "value": "Item 7",
+              "text": "For active movement/exercise"
+            },
+            {
+              "value": "Item 8",
+              "text": "To decompress and recharge"
+            },
+            {
+              "value": "Item 9",
+              "text": "To enjoy views"
+            }
+          ],
+          "showOtherItem": true,
+          "showNoneItem": true,
+          "noneText": "None of the above",
+          "otherText": "Others (please specify):"
+        },
+        {
+          "type": "panel",
+          "name": "panel7",
+          "elements": [
+            {
+              "type": "image",
+              "name": "question5",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=cddb4ebe-125b-4868-b374-38cb72a125c2",
+              "imageFit": "cover",
+              "imageHeight": "auto",
+              "imageWidth": "100%"
+            },
+            {
+              "type": "matrix",
+              "name": "question6",
+              "title": "Please rate the extent to which you agree with the following statements on the courtyard.\r\n",
+              "isRequired": true,
+              "rowTitleWidth": "30%",
+              "columns": [
+                {
+                  "value": "Column 1",
+                  "text": "Strongly Disagree"
+                },
+                {
+                  "value": "Column 2",
+                  "text": "Disagree"
+                },
+                {
+                  "value": "Column 3",
+                  "text": "Neutral"
+                },
+                {
+                  "value": "Column 4",
+                  "text": "Agree"
+                },
+                {
+                  "value": "Column 5",
+                  "text": "Strongly Agree"
+                }
+              ],
+              "rows": [
+                {
+                  "value": "Row 1",
+                  "text": "The design of the courtyard makes travelling between floors enjoyable."
+                },
+                {
+                  "value": "Row 2",
+                  "text": "The staircases within the courtyard are conveniently located for travelling between floors."
+                },
+                {
+                  "value": "Row 3",
+                  "text": "The greenery along corridors and elevated gardens in the courtyard contributes to a pleasant school environment."
+                },
+                {
+                  "value": "Row 4",
+                  "text": "The openness of the multi-level courtyard encourages spontaneous interactions with other students."
+                },
+                {
+                  "value": "Row 5",
+                  "text": "The size and proportion of the courtyard makes me feel more connected to the wider school community despite being a high-rise building."
+                }
+              ],
+              "eachRowRequired": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "elements": [
+        {
+          "type": "expression",
+          "name": "question7",
+          "title": "Greenery & Green Spaces",
+          "description": "A distinctive feature of EJC is its proximity to Bishan-Ang Mo Kio Park. The design of the campus also integrates green elements that extend the park experience into the school. \n\nThis section assesses how students perceive the greenery in and around the campus in a high-rise setting, providing insights into the role of greenery in supporting student learning."
+        },
+        {
+          "type": "image",
+          "name": "question8",
+          "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=6272eff9-e331-4bc2-afa7-2b29688404cc",
+          "imageFit": "cover",
+          "imageHeight": "auto",
+          "imageWidth": "100%"
+        },
+        {
+          "type": "matrix",
+          "name": "question9",
+          "title": "Please rate the extent to which you agree with the following statements on the greenery within and surrounding EJC.\r\n",
+          "isRequired": true,
+          "rowTitleWidth": "30%",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Strongly Disagree"
+            },
+            {
+              "value": "Column 2",
+              "text": "Disagree"
+            },
+            {
+              "value": "Column 3",
+              "text": "Neutral"
+            },
+            {
+              "value": "Column 4",
+              "text": "Agree"
+            },
+            {
+              "value": "Column 5",
+              "text": "Strongly Agree"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "The greenery within and surrounding the school contributes positively to my school experience."
+            },
+            {
+              "value": "Row 3",
+              "text": "I enjoy seeing greenery from different areas and levels of the school."
+            },
+            {
+              "value": "Row 4",
+              "text": "Greenery integrated within the school makes travelling between spaces more pleasant."
+            }
+          ],
+          "eachRowRequired": true
+        },
+        {
+          "type": "matrix",
+          "name": "question10",
+          "title": "Please rate the extent to which you agree with the following statements on the adjacency to Bishan-Ang Mo Kio Park.\n",
+          "isRequired": true,
+          "rowTitleWidth": "30%",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Strongly Disagree"
+            },
+            {
+              "value": "Column 2",
+              "text": "Disagree"
+            },
+            {
+              "value": "Column 3",
+              "text": "Neutral"
+            },
+            {
+              "value": "Column 4",
+              "text": "Agree"
+            },
+            {
+              "value": "Column 5",
+              "text": "Strongly Agree"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "I visit or pass through the Bishan-Ang Mo Kio park, for any purposes, as part of my school day."
+            },
+            {
+              "value": "Row 2",
+              "text": "Having easy access to the park is important to me."
+            },
+            {
+              "value": "Row 3",
+              "text": "I enjoy the \"School in a Park\" setting, which is unique to EJC."
+            }
+          ],
+          "eachRowRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page5",
+      "elements": [
+        {
+          "type": "expression",
+          "name": "question11",
+          "title": "Integration with Marymount Community Club",
+          "description": "EJC is the first junior college to be integrated with a community club (CC) under one roof.\n\nThis section assesses how Eunoians engage with the spaces and people within Marymount Community Club, providing insights into how effectively the school and Community Club function as a mixed-use development.\n"
+        },
+        {
+          "type": "panel",
+          "name": "panel8",
+          "elements": [
+            {
+              "type": "image",
+              "name": "question12",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=78e1ac91-9492-47b6-ae96-a1ae17397a64",
+              "imageFit": "cover",
+              "imageHeight": "auto",
+              "imageWidth": "100%"
+            },
+            {
+              "type": "matrix",
+              "name": "question13",
+              "titleLocation": "hidden",
+              "isRequired": true,
+              "rowTitleWidth": "30%",
+              "columns": [
+                {
+                  "value": "Column 1",
+                  "text": "Never"
+                },
+                {
+                  "value": "Column 2",
+                  "text": "Rarely"
+                },
+                {
+                  "value": "Column 3",
+                  "text": "Sometimes"
+                },
+                {
+                  "value": "Column 4",
+                  "text": "Often"
+                },
+                {
+                  "value": "Column 5",
+                  "text": "Always"
+                }
+              ],
+              "rows": [
+                {
+                  "value": "Row 1",
+                  "text": "Do you visit or engage with Marymount Community Club for any purpose?"
+                }
+              ],
+              "eachRowRequired": true,
+              "hideIfRowsEmpty": true
+            },
+            {
+              "type": "comment",
+              "name": "question22",
+              "title": "Please describe your experiences with Marymount Community Club. If you never or rarely visit, please explain why.",
+              "isRequired": true
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel9",
+          "elements": [
+            {
+              "type": "image",
+              "name": "question23",
+              "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=42c75b31-477f-48eb-b3ad-e843d5d649fa",
+              "imageFit": "cover",
+              "imageHeight": "auto",
+              "imageWidth": "100%"
+            },
+            {
+              "type": "comment",
+              "name": "question24",
+              "title": "Does the fact that the track and field is elevated make a difference to the way you use or perceive the facility?",
+              "description": "(You may consider the views, your comfort level, sense of safety...)",
+              "isRequired": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "calculatedValues": [
+    {
+      "name": "combinedChoices",
+      "expression": "iif({q1} notempty, {q1}, []) + iif({q2} notempty, {q2}, [])"
+    }
+  ],
+  "widthMode": "static",
+  "width": "12in",
+  "headerView": "advanced"
+}
