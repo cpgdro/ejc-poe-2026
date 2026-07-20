@@ -56,11 +56,47 @@
       survey.applyTheme(surveyTheme);
 
       survey.onComplete.add(function(sender) {
+        const completeResponse = {};
+
+        // Include every question, even when it was not answered.
+        sender.getAllQuestions().forEach(question => {
+          const questionName = question.name;
+          const questionType = question.getType();
+          const answer = sender.data[questionName];
+
+          // Create a separate Google Sheets column for every matrix row.
+          if (questionType === "matrix") {
+            question.rows.forEach(row => {
+              const rowValue =
+                typeof row === "object" ? row.value : row;
+
+              const rowText =
+                typeof row === "object"
+                  ? (row.text || row.value)
+                  : row;
+
+              const columnName = `${questionName} - ${rowText}`;
+
+              completeResponse[columnName] =
+                answer && answer[rowValue] !== undefined
+                  ? answer[rowValue]
+                  : "";
+            });
+
+            return;
+          }
+
+          completeResponse[questionName] =
+            answer !== undefined && answer !== null
+              ? answer
+              : "";
+        });
+
         const payload = new URLSearchParams();
 
         payload.append(
           "payload",
-          JSON.stringify(sender.data)
+          JSON.stringify(completeResponse)
         );
 
         fetch(GOOGLE_SCRIPT_URL, {
