@@ -2,6 +2,7 @@
 <html lang="en">
   
 <head>
+  
   <meta charset="UTF-8">
 
   <meta
@@ -17,6 +18,20 @@
     href="https://unpkg.com/survey-core/survey-core.min.css"
   >
 
+  <style>
+    @media (max-width: 768px) {
+      .sd-matrix__cell--row-text,
+      .sd-table__cell--row-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        display: block !important;
+        white-space: normal !important;
+        box-sizing: border-box !important;
+      }
+    }
+  </style>
+  
   <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
   <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
   
