@@ -56,23 +56,19 @@
 
       survey.applyTheme(surveyTheme);
       
-      function updateRankingChoices() {
-        const ranking = survey.getQuestionByName("1-space");
+      function updateRankingChoices(imagePickerName, othersName, rankingName) {
+        const ranking = survey.getQuestionByName(rankingName);
       
         if (!ranking) return;
       
-        const selectedSpaces = survey.getValue("1-spaces") || [];
-        const otherText = survey.getValue("1-others-Comment") || "";
+        const selectedSpaces = survey.getValue(imagePickerName) || [];
+        const otherText = survey.getValue(othersName + "-Comment") || "";
       
         const combinedChoices = [...selectedSpaces];
       
         if (otherText.trim()) {
           combinedChoices.push(otherText.trim());
         }
-      
-        console.log("Selected spaces:", selectedSpaces);
-        console.log("Other text:", otherText);
-        console.log("Combined ranking choices:", combinedChoices);
       
         ranking.fromJSON({
           choices: combinedChoices
@@ -82,19 +78,50 @@
       }
       
       survey.onValueChanged.add(function(sender, options) {
+      
+        // Group 1
         if (
           options.name === "1-spaces" ||
           options.name === "1-others" ||
           options.name === "1-others-Comment"
         ) {
-          updateRankingChoices();
+          updateRankingChoices("1-spaces", "1-others", "1-space");
         }
+      
+        // Group 2
+        if (
+          options.name === "2-spaces" ||
+          options.name === "2-others" ||
+          options.name === "2-others-Comment"
+        ) {
+          updateRankingChoices("2-spaces", "2-others", "2-space");
+        }
+      
+        // Group 3
+        if (
+          options.name === "3-spaces" ||
+          options.name === "3-others" ||
+          options.name === "3-others-Comment"
+        ) {
+          updateRankingChoices("3-spaces", "3-others", "3-space");
+        }
+      
       });
       
       survey.onAfterRenderQuestion.add(function(sender, options) {
+      
         if (options.question.name === "1-space") {
-          updateRankingChoices();
+          updateRankingChoices("1-spaces", "1-others", "1-space");
         }
+      
+        if (options.question.name === "2-space") {
+          updateRankingChoices("2-spaces", "2-others", "2-space");
+        }
+      
+        if (options.question.name === "3-space") {
+          updateRankingChoices("3-spaces", "3-others", "3-space");
+        }
+      
       });
 
       if (window.matchMedia("(max-width: 768px)").matches) {
