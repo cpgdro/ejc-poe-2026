@@ -125,14 +125,17 @@
       });
 
       if (window.matchMedia("(max-width: 768px)").matches) {
-        const imagePicker = survey.getQuestionByName("1-spaces");
-
-        if (imagePicker) {
-          imagePicker.minImageWidth = 70;
-          imagePicker.minImageHeight = 70;
-          imagePicker.maxImageWidth = 70;
-          imagePicker.maxImageHeight = 70;
-        }
+        ["1-spaces", "2-spaces", "3-spaces"].forEach(function(questionName) {
+          const imagePicker = survey.getQuestionByName(questionName);
+      
+          if (imagePicker) {
+            imagePicker.minImageWidth = 70;
+            imagePicker.minImageHeight = 70;
+            imagePicker.maxImageWidth = 70;
+            imagePicker.maxImageHeight = 70;
+            imagePicker.imageFit = "cover";
+          }
+        });
       }
 
       survey.onComplete.add(function(sender) {
