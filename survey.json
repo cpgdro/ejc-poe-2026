@@ -200,8 +200,7 @@
               "name": "1-space",
               "visibleIf": "{1-spaces} notempty or {1-others} notempty",
               "title": "Please rank these spaces according to how important they are for your personal alone time.",
-              "isRequired": true,
-              "choices": []
+              "isRequired": true
             },
             {
               "type": "expression",
@@ -319,7 +318,7 @@
                     }
                   ],
                   "choicesVisibleIf": "{2-spaces.length} < 4",
-                  "imageFit": "fill",
+                  "imageFit": "cover",
                   "minImageWidth": 120,
                   "minImageHeight": 120,
                   "maxImageWidth": 200,
@@ -329,8 +328,8 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "2-spaces-others",
-                  "title": " ",
+                  "name": "2-others",
+                  "titleLocation": "hidden",
                   "showOtherItem": true,
                   "otherText": "Others (please specify):"
                 }
@@ -339,16 +338,9 @@
             {
               "type": "ranking",
               "name": "2-space",
-              "visibleIf": "{2-spaces} notempty",
+              "visibleIf": "{2-spaces} notempty or {2-others} notempty",
               "title": "Please rank these third spaces according to how important they are for spending time with peers.",
-              "isRequired": true,
-              "choicesFromQuestion": "2-spaces",
-              "choices": [
-                "Item 1",
-                "Item 2",
-                "Item 3"
-              ],
-              "choicesFromQuestionMode": "selected"
+              "isRequired": true
             },
             {
               "type": "expression",
@@ -466,7 +458,7 @@
                     }
                   ],
                   "choicesVisibleIf": "{3-spaces.length} < 4",
-                  "imageFit": "fill",
+                  "imageFit": "cover",
                   "minImageWidth": 120,
                   "minImageHeight": 120,
                   "maxImageWidth": 200,
@@ -476,8 +468,8 @@
                 },
                 {
                   "type": "checkbox",
-                  "name": "3-space-others",
-                  "title": " ",
+                  "name": "3-others",
+                  "titleLocation": "hidden",
                   "showOtherItem": true,
                   "otherText": "Others (please specify):"
                 }
@@ -486,16 +478,9 @@
             {
               "type": "ranking",
               "name": "3-space",
-              "visibleIf": "{3-spaces} notempty",
+              "visibleIf": "{3-spaces} notempty or {3-others} notempty",
               "title": "Please rank these spaces according to how important they are for spending time with the school community.",
-              "isRequired": true,
-              "choicesFromQuestion": "3-spaces",
-              "choices": [
-                "Item 1",
-                "Item 2",
-                "Item 3"
-              ],
-              "choicesFromQuestionMode": "selected"
+              "isRequired": true
             },
             {
               "type": "expression",
