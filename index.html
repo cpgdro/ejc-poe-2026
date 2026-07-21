@@ -78,19 +78,12 @@
           combinedChoices.push(otherText);
         }
       
-        ranking.choices = combinedChoices;
+        ranking.choices = combinedChoices.map(space => ({
+          value: space,
+          text: space
+        }));
       
-        const currentRanking = Array.isArray(ranking.value)
-          ? ranking.value
-          : [];
-      
-        const validRanking = currentRanking.filter(value =>
-          combinedChoices.includes(value)
-        );
-      
-        if (validRanking.length !== currentRanking.length) {
-          ranking.value = validRanking;
-        }
+        ranking.value = combinedChoices;
       }
       
       survey.onValueChanged.add(function(sender, options) {
