@@ -176,7 +176,7 @@
                       "imageLink": "https://api.surveyjs.io/private/Surveys/files?name=7af9af39-cd43-47ae-ba81-47d02c4bdee6"
                     }
                   ],
-                  "choicesVisibleIf": "{1-spaces.length} < 4",
+                  "choicesVisibleIf": "({1-spaces.length} < 4)",
                   "otherText": "Others (please specify):",
                   "imageFit": "cover",
                   "minImageWidth": 120,
@@ -1442,7 +1442,7 @@
           "title": "Please rate the extent to which you agree with the following statements.\r\n",
           "isRequired": true,
           "alternateRows": true,
-          "rowTitleWidth": "30%",
+          "rowTitleWidth": "100%",
           "columns": [
             "Strongly Disagree",
             "Disagree",
@@ -1508,7 +1508,8 @@
               "name": "circulation-3",
               "title": "Please rate the extent to which you agree with the following statements on the courtyard.\r\n",
               "isRequired": true,
-              "rowTitleWidth": "30%",
+              "alternateRows": true,
+              "rowTitleWidth": "100%",
               "columns": [
                 "Strongly Disagree",
                 "Disagree",
@@ -1566,7 +1567,8 @@
           "name": "green-1",
           "title": "Please rate the extent to which you agree with the following statements on the greenery in and around EJC.\r\n",
           "isRequired": true,
-          "rowTitleWidth": "30%",
+          "alternateRows": true,
+          "rowTitleWidth": "100%",
           "columns": [
             "Strongly Disagree",
             "Disagree",
@@ -1595,7 +1597,8 @@
           "name": "green-2",
           "title": "Please rate the extent to which you agree with the following statements on the adjacency to Bishan-Ang Mo Kio Park.\n",
           "isRequired": true,
-          "rowTitleWidth": "30%",
+          "alternateRows": true,
+          "rowTitleWidth": "100%",
           "columns": [
             "Strongly Disagree",
             "Disagree",
@@ -1647,7 +1650,7 @@
               "name": "cc-1",
               "titleLocation": "hidden",
               "isRequired": true,
-              "rowTitleWidth": "30%",
+              "rowTitleWidth": "100%",
               "columns": [
                 "Never",
                 "Rarely",
