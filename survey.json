@@ -1286,22 +1286,10 @@
                   "title": " ",
                   "description": "Environmental  Comfort",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable temperature"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Non-disruptive noise levels"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Well-ventilated"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Comfortable lighting conditions"
-                    }
+                    "Comfortable temperature",
+                    "Non-disruptive noise levels",
+                    "Well-ventilated",
+                    "Comfortable lighting conditions"
                   ]
                 },
                 {
@@ -1311,30 +1299,12 @@
                   "title": " ",
                   "description": "Spatial Factors",
                   "choices": [
-                    {
-                      "value": "Item 2",
-                      "text": "Convenient location"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Comfortable size and scale of space"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Appropriate degree of enclosure/openness"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Good outdoor views"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Integration of greenery"
-                    },
-                    {
-                      "value": "Item 7",
-                      "text": "Appealing material choices"
-                    }
+                    "Convenient location",
+                    "Comfortable size and scale of space",
+                    "Appropriate degree of enclosure/openness",
+                    "Good outdoor views",
+                    "Integration of greenery",
+                    "Appealing material choices"
                   ]
                 },
                 {
@@ -1343,22 +1313,10 @@
                   "title": " ",
                   "description": "Accessories & Provisions",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Comfortable furniture"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Flexibility in programming"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Adequate power sockets"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Before/after school access"
-                    }
+                    "Comfortable furniture",
+                    "Flexibility in programming",
+                    "Adequate power sockets",
+                    "Before/after school access"
                   ]
                 },
                 {
@@ -1368,30 +1326,12 @@
                   "title": " ",
                   "description": "Ambience",
                   "choices": [
-                    {
-                      "value": "Item 1",
-                      "text": "Welcoming ambience"
-                    },
-                    {
-                      "value": "Item 2",
-                      "text": "Appropriate level of privacy"
-                    },
-                    {
-                      "value": "Item 6",
-                      "text": "Appropriate formal/casual setting"
-                    },
-                    {
-                      "value": "Item 3",
-                      "text": "Productive atmosphere"
-                    },
-                    {
-                      "value": "Item 4",
-                      "text": "Calming and restorative atmosphere"
-                    },
-                    {
-                      "value": "Item 5",
-                      "text": "Social environment"
-                    }
+                    "Welcoming ambience",
+                    "Appropriate level of privacy",
+                    "Appropriate formal/casual setting",
+                    "Productive atmosphere",
+                    "Calming and restorative atmosphere",
+                    "Social environment"
                   ],
                   "otherText": "Others (please specify):"
                 },
