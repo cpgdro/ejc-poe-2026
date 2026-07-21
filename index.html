@@ -58,37 +58,41 @@
 
       function updateRankingChoices() {
         const ranking = survey.getQuestionByName("1-space");
+        const imagePicker = survey.getQuestionByName("1-spaces");
+        const othersQuestion = survey.getQuestionByName("1-others");
       
-        if (!ranking) return;
+        if (!ranking || !imagePicker || !othersQuestion) return;
       
-        // Selected Image Picker responses
-        const selectedSpaces = survey.getValue("1-spaces") || [];
+        const selectedSpaces = Array.isArray(imagePicker.value)
+          ? imagePicker.value
+          : [];
       
-        // Text entered under Others
         const otherText =
-          survey.getValue("1-others-Comment") || "";
+          typeof othersQuestion.comment === "string"
+            ? othersQuestion.comment.trim()
+            : "";
       
         const combinedChoices = [...selectedSpaces];
       
-        if (otherText.trim()) {
-          combinedChoices.push(otherText.trim());
+        if (otherText) {
+          combinedChoices.push(otherText);
         }
       
         ranking.choices = combinedChoices;
       
-        // Remove an old ranking answer if its choices changed
-        const currentRanking = survey.getValue("1-space") || [];
+        const currentRanking = Array.isArray(ranking.value)
+          ? ranking.value
+          : [];
       
-        const validRanking = currentRanking.filter(
-          value => combinedChoices.includes(value)
+        const validRanking = currentRanking.filter(value =>
+          combinedChoices.includes(value)
         );
       
         if (validRanking.length !== currentRanking.length) {
-          survey.setValue("1-space", validRanking);
+          ranking.value = validRanking;
         }
       }
       
-      // Update whenever either source question changes
       survey.onValueChanged.add(function(sender, options) {
         if (
           options.name === "1-spaces" ||
@@ -97,6 +101,10 @@
         ) {
           updateRankingChoices();
         }
+      });
+      
+      survey.onCurrentPageChanged.add(function() {
+        updateRankingChoices();
       });
 
       if (window.matchMedia("(max-width: 768px)").matches) {
