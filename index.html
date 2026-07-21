@@ -60,11 +60,6 @@
         const imagePicker = survey.getQuestionByName("1-spaces");
 
         if (imagePicker) {
-          // Use numbers, not "25px"
-          imagePicker.imageWidth = 50;
-          imagePicker.imageHeight = 50;
-      
-          // Remove the existing 120px minimum restriction
           imagePicker.minImageWidth = 50;
           imagePicker.minImageHeight = 50;
           imagePicker.maxImageWidth = 50;
