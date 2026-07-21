@@ -55,33 +55,28 @@
       const survey = new Survey.Model(surveyJson);
 
       survey.applyTheme(surveyTheme);
-
+      
       function updateRankingChoices() {
         const ranking = survey.getQuestionByName("1-space");
-        const imagePicker = survey.getQuestionByName("1-spaces");
-        const othersQuestion = survey.getQuestionByName("1-others");
       
-        if (!ranking || !imagePicker || !othersQuestion) return;
+        if (!ranking) return;
       
-        const selectedSpaces = Array.isArray(imagePicker.value)
-          ? imagePicker.value
-          : [];
-      
-        const otherText =
-          typeof othersQuestion.comment === "string"
-            ? othersQuestion.comment.trim()
-            : "";
+        const selectedSpaces = survey.getValue("1-spaces") || [];
+        const otherText = survey.getValue("1-others-Comment") || "";
       
         const combinedChoices = [...selectedSpaces];
       
-        if (otherText) {
-          combinedChoices.push(otherText);
+        if (otherText.trim()) {
+          combinedChoices.push(otherText.trim());
         }
       
-        ranking.choices = combinedChoices.map(space => ({
-          value: space,
-          text: space
-        }));
+        console.log("Selected spaces:", selectedSpaces);
+        console.log("Other text:", otherText);
+        console.log("Combined ranking choices:", combinedChoices);
+      
+        ranking.fromJSON({
+          choices: combinedChoices
+        });
       
         ranking.value = combinedChoices;
       }
@@ -96,8 +91,10 @@
         }
       });
       
-      survey.onCurrentPageChanged.add(function() {
-        updateRankingChoices();
+      survey.onAfterRenderQuestion.add(function(sender, options) {
+        if (options.question.name === "1-space") {
+          updateRankingChoices();
+        }
       });
 
       if (window.matchMedia("(max-width: 768px)").matches) {
