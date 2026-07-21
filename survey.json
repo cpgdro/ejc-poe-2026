@@ -178,7 +178,7 @@
                   ],
                   "choicesVisibleIf": "{1-spaces.length} < 4",
                   "otherText": "Others (please specify):",
-                  "imageFit": "fill",
+                  "imageFit": "cover",
                   "minImageWidth": 120,
                   "minImageHeight": 120,
                   "maxImageWidth": 200,
@@ -198,15 +198,9 @@
             {
               "type": "ranking",
               "name": "1-space",
-              "visibleIf": "{1-spaces} notempty",
+              "visibleIf": "{1-spaces} notempty or {1-others} notempty",
               "title": "Please rank these spaces according to how important they are for your personal alone time.",
               "isRequired": true,
-              "choicesFromQuestion": "1-spaces",
-              "choices": [
-                "Item 1",
-                "Item 2",
-                "Item 3"
-              ],
               "choicesFromQuestionMode": "selected"
             },
             {
