@@ -188,6 +188,11 @@
             answer !== undefined && answer !== null
               ? answer
               : "";
+          
+          // Also save the "Other (please specify)" text
+          if (question.comment) {
+            completeResponse[questionName + "-Comment"] = question.comment;
+          }
         });
 
         const payload = new URLSearchParams();
