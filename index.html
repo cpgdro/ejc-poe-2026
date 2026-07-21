@@ -77,7 +77,8 @@
         if (!ranking) return;
       
         const selectedSpaces = survey.getValue(imagePickerName) || [];
-        const otherText = survey.getValue(othersName + "-Comment") || "";
+        const otherQuestion = survey.getQuestionByName(othersName);
+        const otherText = otherQuestion?.comment || "";
       
         const combinedChoices = [...selectedSpaces];
       
