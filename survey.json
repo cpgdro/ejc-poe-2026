@@ -201,7 +201,7 @@
               "visibleIf": "{1-spaces} notempty or {1-others} notempty",
               "title": "Please rank these spaces according to how important they are for your personal alone time.",
               "isRequired": true,
-              "choicesFromQuestionMode": "selected"
+              "choices": []
             },
             {
               "type": "expression",
